@@ -1,0 +1,43 @@
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    margin: 50px auto;
+}
+
+@media screen and (max-width: 1366px) {
+     .carousel-control-next-icon{
+        position: absolute;
+        right: -6.1vw;
+        background-color: rgb(52, 103, 197);
+        border-radius: 50%;
+        padding: 30px;
+    }
+    
+    .carousel-control-prev-icon {
+        position: absolute;
+        left: -6.1vw;
+        background-color: rgb(52, 103, 197);
+        border-radius: 50%;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-control-next-icon {
+        position: relative;
+        right: -5vw;
+        background-color: rgb(52, 103, 197);
+        border-radius: 50%;
+        padding: 25px;
+    }
+    
+    .carousel-control-prev-icon {
+        position: relative;
+        left: -5vw;
+        background-color: rgb(52, 103, 197);
+        border-radius: 50%;
+        padding: 25px;
+    }
+}
